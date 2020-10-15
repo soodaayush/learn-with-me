@@ -1,13 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-
 html {
   width: 100%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
 }
 
 h1 {
   text-align: center;
 }
 
+p {
+  text-align: center;
+  font-size:20px;
+}
+
+img {
+  align-self:right;
+}
+
+a {
+  text-align: center;
+}
+
 .navbar {
+  display:grid;
   background-color: whitesmoke;
 }
