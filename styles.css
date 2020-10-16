@@ -1,3 +1,5 @@
+/*Important*/
+
 html {
   width: 100%;
 }
@@ -5,6 +7,14 @@ html {
 body {
   font-family: "Lato", sans-serif;
 }
+/*navbar*/
+
+.navbar {
+  display: grid;
+  background-color: whitesmoke;
+}
+
+/*Section 1*/
 
 h1 {
   text-align: center;
@@ -12,18 +22,19 @@ h1 {
 
 p {
   text-align: center;
-  font-size:20px;
+  font-size: 20px;
 }
 
 img {
-  align-self:right;
+  align-self: right;
 }
 
 a {
   text-align: center;
 }
 
-.navbar {
-  display:grid;
-  background-color: whitesmoke;
+/*Section 2*/
+
+.section-2 {
+  display: grid;
 }
