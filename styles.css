@@ -1,6 +1,9 @@
 /*Important*/
 
 html {
+  margin: auto;
+  max-width: 1000px;
+  text-align: center;
   width: 100%;
 }
 
@@ -26,17 +29,14 @@ p {
 }
 
 img {
+  display: block;
+  width: 100%;
+  height: 100%;
   align-self: right;
 }
 
 a {
   text-align: center;
-}
-
-/*About*/
-
-.section-2 {
-  display: grid;
 }
 
 .testomonials {
