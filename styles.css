@@ -2,13 +2,10 @@
 
 html {
   margin: auto;
-  max-width: 1000px;
   text-align: center;
   width: 100%;
-}
-
-header {
-  width: ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -22,6 +19,30 @@ body {
   background-color: whitesmoke;
 }
 
+#Welcome {
+  color: blue;
+  font-size: 45px;
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+}
+
+#Stuff {
+  color: red;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+
+#link {
+  margin: 20px;
+  text-decoration: none;
+  color: #ccc;
+  border: 2px solid blue;
+  border-radius:35px;
+}
 /*Home*/
 
 h1 {
@@ -44,17 +65,8 @@ a {
   text-align: center;
 }
 
-div {
-  
-}
-
 .testomonials {
   padding: 35px;
-}
-
-.regsiter {
-  text-align: center;
-  margin: 15px;
 }
 
 .Main-content {
