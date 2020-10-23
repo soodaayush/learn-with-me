@@ -2,6 +2,18 @@
   box-sizing: border-box;
 }
 
+#header {
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+}
+
+#link {
+  text-decoration: none;
+  color: #485e74;
+}
+
 body {
   background: #92bde7;
   color: #485e74;
