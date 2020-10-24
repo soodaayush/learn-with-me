@@ -1,17 +1,17 @@
 * {
+  margin: 0;
   box-sizing: border-box;
 }
 
 #header {
+  text-align: left;
+  background: #7579e7;
   padding: 0;
-  width: 100%;
-  margin: 0;
-  height: 100%;
 }
 
-#link {
-  text-decoration: none;
-  color: #485e74;
+#logo {
+  padding-left: 25px;
+  padding-bottom: 10px;
 }
 
 body {
@@ -19,13 +19,14 @@ body {
   color: #485e74;
   line-height: 1.6;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 1em;
+  margin: 0;
 }
 
 .container {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 100px;
   padding: 1em;
 }
 
