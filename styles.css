@@ -48,8 +48,7 @@ p {
 
 #showcase .bg-image {
   position: absolute;
-  background: #333
-    url("https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?cs=srgb&dl=pexels-pixabay-207691.jpg&fm=jpg");
+  background: #333 url("img/classroom.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -166,12 +165,12 @@ p {
  =======================
 */
 
-#section-d .box {
+#contact-about-me .box {
   padding: 2em;
   color: #fff;
 }
 
-#section-d .box:first-child {
+#contact-about-me .box:first-child {
   background: #2690d4;
 }
 
