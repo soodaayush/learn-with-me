@@ -84,8 +84,9 @@ ul {
 
 .contact form button,
 .contact form input,
-.contact form textarea {
-  width: 100%;
+.contact form textarea,
+.contact form option {
+  width: 90%;
   padding: 1em;
   border: 1px solid #c9e6ff;
 }
