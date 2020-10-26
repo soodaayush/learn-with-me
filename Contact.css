@@ -1,12 +1,23 @@
+/*======================
+  Important
+ =======================
+*/
+
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
+/*======================
+  Header
+ =======================
+*/
+
 #header {
   text-align: left;
   background: #7579e7;
   padding: 0;
+  margin: 0;
 }
 
 #logo {
@@ -14,12 +25,16 @@
   padding-bottom: 10px;
 }
 
+/*======================
+  Form
+ =======================
+*/
+
 body {
   background: #92bde7;
   color: #485e74;
   line-height: 1.6;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
 }
 
 .container {
@@ -84,11 +99,17 @@ ul {
 
 .contact form button,
 .contact form input,
-.contact form textarea,
-.contact form option {
-  width: 90%;
+.contact form textarea {
+  width: 100%;
   padding: 1em;
   border: 1px solid #c9e6ff;
+  resize: none;
+}
+
+#yes-no {
+  width: 100%;
+  font-size: 17px;
+  padding: 11px;
 }
 
 .contact form button {
@@ -104,6 +125,11 @@ ul {
   outline: 0;
   transition: background-color 2s ease-out;
 }
+
+/*======================
+  Media
+ =======================
+*/
 
 @media (min-width: 700px) {
   .wrapper {
