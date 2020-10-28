@@ -96,7 +96,17 @@ p {
 #welcome {
   background: #eaeaea;
   color: #333;
-  padding-bottom: 2em;
+  padding: 2em;
+}
+
+/*======================
+  Who am I
+ =======================
+*/
+
+#who-am-i {
+  padding: 2em;
+  background: #3d6cb9;
 }
 
 /*======================
