@@ -41,7 +41,7 @@ p {
 */
 
 #header {
-  background: #d2ecf9;
+  background: #fff;
   margin: 0;
   padding-top: 20px;
   padding-left: 25px;
@@ -49,7 +49,7 @@ p {
 }
 
 #header img {
-  width: 450px;
+  width: 400px;
 }
 
 #header-link {
@@ -69,7 +69,7 @@ p {
 
 #showcase .bg-image {
   position: absolute;
-  background: #333 url("img/classroom.jpg");
+  background: #333 url("img/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -208,6 +208,16 @@ p {
 
 #contact-about-me .box:first-child {
   background: #2690d4;
+}
+
+/*======================
+  Why make this website
+ =======================
+*/
+
+#why-i-made-this-website {
+  background: #47d6b6;
+  padding: 2em;
 }
 
 /*======================
