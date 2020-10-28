@@ -173,7 +173,7 @@ p {
 
 #what-i-teach {
   padding: 2em 1em 1em;
-  background: #86a6df;
+  background: #333;
 }
 
 #what-i-teach ul {
@@ -193,7 +193,7 @@ p {
 }
 
 #teach {
-  background: #86a6df;
+  background: #333;
 }
 
 /*======================
@@ -210,14 +210,8 @@ p {
   background: #2690d4;
 }
 
-/*======================
-  Why make this website
- =======================
-*/
-
-#why-i-made-this-website {
-  background: #47d6b6;
-  padding: 2em;
+#about-me {
+  background: #3d6cb9;
 }
 
 /*======================
