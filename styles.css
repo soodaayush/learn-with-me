@@ -36,6 +36,27 @@ p {
 }
 
 /*======================
+  Header
+ =======================
+*/
+
+#header {
+  background: #d2ecf9;
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-bottom: 20px;
+}
+
+#header img {
+  width: 450px;
+}
+
+#header-link {
+  display: inline-block;
+}
+
+/*======================
   Website
  =======================
 */

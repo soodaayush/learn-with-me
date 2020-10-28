@@ -15,12 +15,12 @@
 
 #header {
   text-align: left;
-  background: #7579e7;
   padding: 0;
   margin: 0;
 }
 
 #logo {
+  margin-top: 20px;
   padding-left: 25px;
   padding-bottom: 10px;
 }
