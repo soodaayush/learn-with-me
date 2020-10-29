@@ -43,7 +43,6 @@ body {
 }
 
 #header {
-  border-bottom: 3px solid #1f4287;
   display: flex;
   background: #fff;
   text-align: left;

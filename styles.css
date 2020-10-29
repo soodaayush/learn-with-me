@@ -246,28 +246,19 @@ p {
 */
 
 #main-footer {
+  display: flex;
   margin: auto;
+  justify-content: center;
+  gap:20px;
   padding: 2em;
   background: black;
   color: #fff;
-  text-align: center;
-}
-
-#main-footer a {
-  color: #2690d4;
-  text-decoration: none;
 }
 
 #main-footer img {
   width: 50px;
 }
 
-#facebook {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
 
 /*======================
   Media
