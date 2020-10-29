@@ -262,6 +262,13 @@ p {
   width: 50px;
 }
 
+#facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
 /*======================
   Media
  =======================
