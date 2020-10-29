@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="Contact.css" />
+    <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
     <header id="header" class="main-header">
@@ -33,34 +33,35 @@
           <h3>Email Us</h3>
           <form action="POST" data-netlify="true">
             <p>
-              <label>Name</label>
-              <input type="text" name="name" required />
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" required />
             </p>
 
             <p>
-              <label>Email Address</label>
-              <input type="email" name="email" required />
+              <label for="email">Email Address</label>
+              <input type="email" name="email" id="email" required />
             </p>
 
             <p>
-              <label>Phone Number</label>
-              <input type="tel" name="phone" required />
+              <label for="phone">Phone Number</label>
+              <input type="tel" name="phone" id="phone" required />
             </p>
 
             <p>
-              <label>Request Free Trial?</label>
-              <select id="yes-no" name="free trial">
+              <label for="free trial">Request 2 day Free Trial?</label>
+              <select id="yes-no" name="free trial" id="free trial">
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
               </select>
             </p>
 
             <p class="full">
-              <label>Anything to Say?</label>
-              <textarea name="message" rows="5"></textarea>
+              <label for="message">Anything to Say?</label>
+              <textarea name="message" id="message" rows="5"></textarea>
             </p>
 
             <div data-netlify-recaptcha="true"></div>
+
             <p class="full">
               <button>Submit</button>
             </p>
