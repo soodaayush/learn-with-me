@@ -251,10 +251,9 @@ p {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  
+
   margin: auto;
   justify-content: center;
-  gap:20px;
   padding: 2em;
   background: black;
   color: #fff;
@@ -264,6 +263,10 @@ p {
   width: 50px;
 }
 
+#main-footer a {
+  padding-left: 20px;
+
+}
 
 /*======================
   Media
