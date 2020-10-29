@@ -177,6 +177,6 @@ ul {
 
 @media(max-width: 600px) {
   input {
-    width: 50%;
+    width: 30%;
   }
 }
