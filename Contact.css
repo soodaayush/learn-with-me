@@ -174,3 +174,9 @@ ul {
     display: none;
   }
 }
+
+@media(max-width: 600px) {
+  input {
+    width: 50%;
+  }
+}
