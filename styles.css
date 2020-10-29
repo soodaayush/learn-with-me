@@ -246,7 +246,12 @@ p {
 */
 
 #main-footer {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  
   margin: auto;
   justify-content: center;
   gap:20px;
