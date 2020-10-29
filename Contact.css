@@ -53,24 +53,12 @@ body {
 #header img {
   width: 400px;
 }
-/* 
-#header-link {
-  display: inline-block;
-} */
 
 /*======================
   Form
  =======================
 */
-/* 
-body {
-  background: #2690d4;
-  color: #485e74;
-  line-height: 1.6;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-} */
-
-.container {
+*/ .container {
   margin-top: 50px;
   max-width: 1170px;
   margin-left: auto;
