@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 /*======================
   Important
@@ -7,7 +7,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 html {
@@ -46,6 +46,18 @@ p {
   Header
  =======================
 */
+.main-header {
+  display: flex;
+  align-items: center;
+}
+
+.main-header #kiddies {
+  margin-left: auto;
+}
+
+.main-header #kiddies img {
+  width: 200px;
+}
 
 #header {
   border-bottom: 3px solid #1f4287;
