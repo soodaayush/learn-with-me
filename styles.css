@@ -1,5 +1,3 @@
-
-
 /*======================
   Important
  =======================
@@ -46,6 +44,11 @@ p {
   Header
  =======================
 */
+
+#logo {
+  width: 400px;
+}
+
 .main-header {
   display: flex;
   align-items: center;
@@ -231,6 +234,16 @@ p {
 
 #about-me {
   background: #3d6cb9;
+}
+
+/*======================
+  Where I Live
+ =======================
+*/
+
+#where-i-live iframe {
+  width: 100%;
+  height: 700px;
 }
 
 /*======================
