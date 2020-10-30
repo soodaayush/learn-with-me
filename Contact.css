@@ -155,7 +155,7 @@ ul {
 @media (min-width: 700px) {
   .wrapper {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 2fr;
   }
 
   .wrapper > * {
@@ -169,14 +169,13 @@ ul {
   }
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
+  .contact form {
+    display: flex;
+    flex-direction: column;
+  }
+
   #header {
     display: none;
-  }
-}
-
-@media(max-width: 600px) {
-  input {
-    width: 30%;
   }
 }
