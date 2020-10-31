@@ -1,16 +1,13 @@
 @import "header";
 @import "showcase";
 @import "button";
-@import "media";
-@import "contact-about";
-@import "live";
-@import "subjects";
-@import "offering";
 @import "welcome";
-@import "who";
-@import "age";
+@import "offering";
+@import "subjects";
+@import "contact-about";
 @import "footer";
 @import "form";
+@import "media";
 
 * {
   margin: 0;
@@ -47,4 +44,26 @@ html {
   display: block;
   width: 100%;
   height: auto;
+}
+
+#welcome {
+  background: #eaeaea;
+  color: #333;
+  padding: 2em;
+}
+
+#who-am-i {
+  padding: 2em;
+  background: #3d6cb9;
+}
+
+#where-i-live iframe {
+  width: 100%;
+  height: 700px;
+}
+
+#why-us {
+  background: #fff;
+  color: #333;
+  padding: 2em;
 }
