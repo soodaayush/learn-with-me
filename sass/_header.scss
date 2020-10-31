@@ -1,0 +1,26 @@
+#logo {
+  width: 400px;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+
+  #kiddies {
+    margin-left: auto;
+
+    img {
+      width: 200px;
+    }
+  }
+}
+
+#header {
+  display: flex;
+  background: #fff;
+  text-align: left;
+  padding: 20px;
+  img {
+    width: 400px;
+  }
+}
