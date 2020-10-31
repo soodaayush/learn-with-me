@@ -1,0 +1,50 @@
+@import "header";
+@import "showcase";
+@import "button";
+@import "media";
+@import "contact-about";
+@import "live";
+@import "subjects";
+@import "offering";
+@import "welcome";
+@import "who";
+@import "age";
+@import "footer";
+@import "form";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#body {
+  background-color: #333;
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: center;
+
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+    padding: 1em 0;
+  }
+
+  p {
+    margin: 0;
+    padding: 1em 0;
+  }
+}
+
+#what-we-do img,
+#what-i-teach img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

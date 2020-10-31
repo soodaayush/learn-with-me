@@ -1,0 +1,58 @@
+@media (min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+  }
+
+  #welcome .content-text {
+    columns: 2;
+    column-gap: span 2;
+  }
+
+  #welcome .content-text p {
+    padding-top: 0;
+  }
+
+  .content-wrap,
+  #what-we-do ul {
+    grid-column: 2/4;
+  }
+
+  .box,
+  #main-footer div {
+    grid-column: span 2;
+  }
+
+  #what-we-do ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #what-we-do li {
+    width: 31%;
+  }
+
+  .content-wrap,
+  #what-i-teach ul {
+    grid-column: 2/4;
+  }
+
+  #what-i-teach ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #what-i-teach li {
+    width: 31%;
+  }
+
+  @media (max-width: 600px) {
+    #header {
+      display: none;
+    }
+  }
+}
+
+
+
+
