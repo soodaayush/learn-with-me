@@ -48,6 +48,7 @@
   background: #f9feff;
 
   form {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
@@ -74,7 +75,7 @@
   form select {
     width: 100%;
     font-size: 1em;
-    padding-top: 2px;
+    height: 4.8vh;
   }
 }
 
