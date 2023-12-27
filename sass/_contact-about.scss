@@ -1,14 +1,16 @@
-#contact-about-me .box {
-  padding: 2em;
-  color: #fff;
+.box:first-child {
+  background: #fff;
 }
 
-.box:first-child {
-  background: #2690d4;
+#contact-me {
+  padding: 2em;
+  color: #000;
 }
 
 #about-me {
   background: #3d6cb9;
+  padding: 2em;
+  color: #fff;
 
   img {
     display: block;
