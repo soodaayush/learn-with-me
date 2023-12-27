@@ -305,6 +305,11 @@
     display: none;
   }
 }
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito.ttf");
+  font-display: swap;
+}
 * {
   margin: 0;
   box-sizing: border-box;
