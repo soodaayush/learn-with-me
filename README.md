@@ -1,6 +1,6 @@
 # LearnWithMe
 
-![tutor-website](https://github.com/user-attachments/assets/3a0b1aab-2b1f-4bd4-988f-d6c25e186a43)
+![learn-with-me](https://github.com/user-attachments/assets/9a4ad7a9-6239-412a-b89e-2d175e829fd3)
 
 ## Inspiration
 
