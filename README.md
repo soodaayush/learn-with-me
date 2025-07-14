@@ -4,19 +4,23 @@
 
 ## Inspiration
 
-I created this website for a relative of mine who is a tutor, providing an easier way to gather information about their services and register for them.
+I created this site for a relative who works as a tutor. The goal was to provide a clean, user-friendly way for families to learn about available services and sign up easily.
 
 ## Challenges
 
-Ensuring the website performed well despite the number of large images being rendered.
+- Optimizing performance while displaying multiple high-resolution images
+- Ensuring a smooth and accessible user experience across devices
 
 ## Lessons Learned
 
-I learned about Sass and its features that CSS doesn't have. I also learned about handling form input submissions.
+This project helped me explore:
+
+- Sass: Using variables, nesting, and mixins for cleaner and more maintainable styles
+- Forms: Handling input fields and preparing submissions for integration with backend services
 
 ## The Website
 
-This website allows users to gather information about the tutor's services and contact them.
+A simple and effective tutoring website built to showcase services and streamline student registration.
 
 ## Links
 
